@@ -4,25 +4,52 @@ body {
   height: 100%;
 }
 body {
-  display: flex;
-  background-color: green;
-  flex-direction: column;
-  justify-content: space-between;
+  background-color: #c88a32;
   padding: 0;
   margin: 0;
 }
-nav,
-div {
-  background-color: red;
-  height: 1em;
-  width: 1em;
+body .containsAll {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  width: 70%;
+  height: 100%;
   margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav {
+  display: flex;
+  background-color: #9a3c3e;
+  justify-content: space-around;
+  justify-self: flex-start;
+}
+nav img {
+  height: 5em;
+}
+.sidebar {
+  background-color: #c54144;
+}
+.sidebar button {
+  margin: 1em;
 }
 .container {
   display: flex;
   width: 100%;
 }
-.sidebar,
 .mainContent {
-  background-color: orange;
+  background-color: #f04f52;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainContent img {
+  width: 30em;
+}
+.footer {
+  background-color: #9a3c3e;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: space-around;
 }
