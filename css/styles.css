@@ -71,7 +71,7 @@ nav img {
   display: flex;
   justify-content: space-around;
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 680px) {
   body .containsAll {
     width: 100%;
     margin: 0;
@@ -89,5 +89,17 @@ nav img {
   }
   body .containsAll .mainTop {
     flex-direction: column;
+    align-items: center;
+  }
+  body .containsAll .mainContent .mainTop .mainLeft,
+  body .containsAll .mainContent .mainTop .mainRight {
+    width: 90%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1307px) {
+  body .mainContent .mainTop .mainLeft img {
+    height: auto;
+    width: 15em;
   }
 }

@@ -83,13 +83,15 @@ nav {
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 680px){
   body .containsAll {
     width: 100%;
     margin: 0;
     .mainContent .mainTop .mainLeft img {
       height: auto;
       width: 15em;
+      //position: relative;
+      //right: 5em;
     }
     nav {
       width: 100%;
@@ -100,6 +102,17 @@ nav {
     }
     .mainTop {
       flex-direction: column;
+      align-items: center;
     }
+    .mainContent .mainTop .mainLeft,.mainContent .mainTop .mainRight{
+      width: 90%;
+      text-align: center;
+    }
+  }
+}
+@media only screen and (max-width: 1307px) {
+  body .mainContent .mainTop .mainLeft img {
+    height: auto;
+    width: 15em;
   }
 }
