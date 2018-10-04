@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="script.js" type="text/javascript" defer>
+
+    </script>
     <title>Flexbox Practice</title>
 </head>
 <body>
@@ -18,17 +21,17 @@
         </nav>
         <div class="container">
             <div class="sidebar">
-                <button>Click Me</button>
-                <button>Click Me</button>
-                <button>Click Me</button>
-                <button>Click Me</button>
+                <button onclick="myFunc()">FlexFroggy</button>
+                <button onclick="revertIMG()">Burger Image</button>
+                <!--<button>Click Me</button>-->
+                <!--<button>Click Me</button>-->
             </div>
             <div class="mainContent">
                 <div class="mainTop">
                     <div class="mainLeft">
                         <h1>Rockery Burger</h1>
                         <h2>Best Burgers in Town, off the charts!</h2>
-                        <img src="./images/burger-hero.jpg" alt="A delicious and juicy burger">
+                        <img src="./images/burger-hero.jpg" alt="A delicious and juicy burger" id="theImage">
                         <h3>Reasons to Come to Rockey Burger!</h3>
                         <ul>
                             <li>Friendly Staff</li>
